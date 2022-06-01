@@ -18,9 +18,9 @@ function NetWorthCard({
                         ₹{internationalNumberFormat.format(totalAmount)}
                     </h3>
                 </div>
-                <div className="justify-center items-center justify-center">
+                {/* <div className="justify-center items-center justify-center">
                     <h4 className="flex justify-center align-center text-xl font-black m-4 ">{timestamp}</h4>
-                </div>
+                </div> */}
             </div>
         </div>
     )
